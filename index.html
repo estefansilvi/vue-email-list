@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Elenco Mail</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="root" >
+      <h1 class="text-bolder">Elenco mail casuali:</h1>
+      <ul class="list-type-none ">
+        <li class="margin-y-15" v-for="(mail,index) in elencoMail">Questa è la mail casuale numero {{index+1}} : {{mail}}</li>
+      </ul>
+    </div>
+
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

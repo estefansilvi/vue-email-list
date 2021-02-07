@@ -1,0 +1,13 @@
+/* UTILITY CLASS */
+
+.list-type-none{
+  list-style-type: none;
+}
+.margin-y-15{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-bolder{
+  font-weight: bolder;
+}
